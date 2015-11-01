@@ -1,3 +1,4 @@
+
 package main
 
 import (
@@ -59,4 +60,3 @@ func (w Worker) Stop() {
     w.QuitChan <- true
   }()
 }
-view raw
